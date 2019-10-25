@@ -1,3 +1,5 @@
+package ToDoList;
+
 import java.util.Scanner;
 
 /* A method to display the options to the users */

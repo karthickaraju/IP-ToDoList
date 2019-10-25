@@ -1,3 +1,4 @@
+package ToDoList;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -46,9 +47,11 @@ public class TaskRegister {
 
 		System.out.println("Enter the Task Title: ");
 		String taskTitle = scan.next();
+		System.out.println("Task Title added");
 
 		System.out.println("Enter the Project Name: ");
 		String projectName = scan.next();
+		System.out.println("Project Name added");
 
 		DateFormat dft = new SimpleDateFormat("MM/dd/yyyy");
 		System.out.println("Enter the Due date in the format (MM/dd/yyyy): ");
@@ -60,6 +63,7 @@ public class TaskRegister {
 
 		} catch (ParseException e) {
 			e.printStackTrace();
+			System.out.println("Duedate added");
 		}
          
 		Task task = new Task(taskTitle, date, projectName);
@@ -128,22 +132,25 @@ public class TaskRegister {
 			System.out.println("Enter the new title for the task: ");
 			String title = scan.nextLine();
 			scan.next();
+			System.out.println("New Task Title is updated");
 			break;
 			
 		case 2:
 			System.out.println("Enter the new date for the task: ");
 			String date = scan.next();
+			System.out.println("New duedate is updated");
 			break;
 			
 		case 3: 
 			System.out.println("Enter the new project title: ");
 			String projecttitle = scan.next();
+			System.out.println("New project Title is updated");
 			break;
 			
 		case 4: 
 			System.out.println("Enter the new status for the task: ");
 			String status = scan.next();
-
+			System.out.println("New status is updated");
 			break;
 		}
 	}
@@ -174,6 +181,7 @@ public class TaskRegister {
 		List<Task> taskList = iohandler.readFromFile();
 		Collections.sort(taskList, compareByproject);
 		printTasks(taskList);
+		System.out.println("Task displayed by project");
 	}
     
 	/* A method to sort tasks according to the due date associated with */

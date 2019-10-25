@@ -1,0 +1,41 @@
+User Manual
+
+ToDoList app
+Version 0.1
+24th October 2019
+
+System Overview:
+
+The ToDoList is an application that allows user to simplify user’s task management which can help them to list down the tasks, to get organised and get things done. This application allows users to use a text-based user interface via the command-line. With this application the user should be able to create new tasks and assign them a id, title, due date, project and status. The user should also be able to edit/update the task, change the status, search tasks and remove tasks. They can view the collection of tasks sorted by date and project. They can also quit and save the current task list to file and then restart the application with the former state restored. 
+
+System Configuration:
+
+Each User uses their own workstation running any operating system. On those workstations the user needs to execute the ToDoList application program. User can perform any list of activities using this application as shown below.
+
+Using the Application:
+
+User will have the below functionalities while using the ToDoList app:
+
+1. Add New Task:
+On choosing the option 1 will be able to add a task in the application. User needs to enter four fields as shown below:
+	•	Task Title
+	•	Project Title
+	•	DueDate
+	•	Status
+2. List Task:
+Choosing option 2 will enable user to view all his tasks he has added in the ToDoList application by sorting it through DueDate and project.
+
+3. Edit Task:
+On choosing option3 user will be able to update the task details like (title, project, due date and status).
+
+4. Remove:
+On choosing option 4 user will be able to remove the entire task from the taskList.
+
+5. Search:
+On choosing option 5 user will be able to search for the task and display it.
+
+6. Show Main Menu:
+On choosing option 6 user will be able to go back to the ToDoList menu.
+
+7. Save and Quit:
+On choosing option 7 user will be able to save the task and quit from it.
