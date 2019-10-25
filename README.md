@@ -17,17 +17,3 @@ The user interface should be similar as shown below:
     >> (4) Edit task (update, mark as done)
     >> (5) Save and Quit
     >>
-    
-2. Class Diagram:
-     
-
-
-
-
-
-
-
-3. Use Case Diagram:
-￼![alt text](https://api.genmymodel.com/projects/_-bovUPS0EemTHo7LQdQL6Q/diagrams/_-bovU_S0EemTHo7LQdQL6Q/svg)
-
-
