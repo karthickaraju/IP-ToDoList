@@ -28,6 +28,6 @@ The user interface should be similar as shown below:
 
 
 3. Use Case Diagram:
-￼
- ![Image description](https://app.genmymodel.com/edit/_-bovUPS0EemTHo7LQdQL6Q#) 
+￼![alt text](https://app.genmymodel.com/edit/_-bovUPS0EemTHo7LQdQL6Q#)
+
 
