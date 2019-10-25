@@ -1,4 +1,3 @@
-
 ToDoList Specification
 
 1. Project Description
@@ -8,12 +7,11 @@ ToDoList Specification
                
 1.2 User Interface
 The user interface should be similar as shown below:
-    >> Welcome to ToDoList
-    >> You have X tasks to do and Y tasks are done!
-    >> Pick an option:
-    >> (1) Show Task List (sort by date or project)
-    >> (2) Add New Task
-    >> (3) Remove Task
-    >> (4) Edit task (update, mark as done)
-    >> (5) Save and Quit
-    >>
+- Welcome to ToDoList
+- You have X tasks to do and Y tasks are done!
+- Pick an option:
+- (2) Add New Task
+- (3) Remove Task
+- (4) Edit task (update, mark as done)
+- (5) Save and Quit
+-
